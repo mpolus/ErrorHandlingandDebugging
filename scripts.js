@@ -7,7 +7,7 @@ class ValidationError extends Error{
 
 function validateUsername(username) {
     if (username.length < 10) {
-        throw new ValidationError("Username must be 10 characters long.")
+        throw new ValidationError("Username must be 10 characters long.");
     }
     return "Username is Valid.";
 }
