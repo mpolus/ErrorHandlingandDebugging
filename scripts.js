@@ -13,7 +13,7 @@ function validateUsername(username) {
 }
 
 try{
-    console.log(validateUsername("abc"));
+    console.log(validateUsername("tomato"));
 }catch(error){
     console.error(`${error.name}: ${error.message}`)
 }
